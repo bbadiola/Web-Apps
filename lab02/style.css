@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #00001A;
+	color:white; 
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	background: url(img/app-background.png) no-repeat center center fixed ;	
+	background-size: cover;
+}
+
+.unitDisplay{
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.selectedButton{
+	border: 2px solid black;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.bigNumber{
+	font-size: 100px;
+}
+
+.header2{
+	text-align: center;
+}
+
+.fiveDayTop{
+	background: rgba(0, 0, 0, 0.6);
+	width: 50%;
+	margin: 0 auto;
+	padding: 50px;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	border-color: white;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.fiveDayBot{
+	background: rgba(0, 0, 0, 0.6);
+	margin: 15px 15px 15px 15px;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	border-color: white;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.weatherIcon{
+	width:100px;
+	height:100px;
+}
+
+.foot{
+	text-align: center;
+}
+
+@media only screen and (min-width: 1440px){
+	/* large monitor */
+	.c1{
+		width: 19%;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+	/* laptop */
+	.c1{
+		width: 15%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    /* tablets and desktop */
+	.c1{
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+	.c1{
+		width: 85%;
+	}	
+}
